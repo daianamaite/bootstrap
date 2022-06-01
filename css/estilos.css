@@ -69,6 +69,10 @@ header{
     background-color: #d6d6d678;
     color:#672d18;
 }
+/*Acordeon*/
+.colorAcordeon{
+    color: #672d18;
+}
 /**main**/
 
 main{
@@ -84,6 +88,16 @@ main{
     text-align: center;
     font-size: 18px;
 }
+.mainServicioLunch h2{
+    padding: 15px;
+    text-align: center;
+}
+.mainServicioLunch p{
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
 .mainPedidosPersonalizados{
     text-align: center;
     padding-bottom: 15px;
