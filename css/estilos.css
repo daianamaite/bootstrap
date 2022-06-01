@@ -39,7 +39,6 @@ header{
 
 }
 /*Personizando NavBar bootstrap*/
-
 .fondoNavBar{
     background-color: #8C5C4A;
 }
@@ -53,12 +52,6 @@ header{
 .navbar-nav a:hover{
     color: #d6d6d6;
 }
-/*carousel*/
-.tamañocarousel{
-    height: 600px;
-    width: 900px;
-}
-
 .logo{
     height: 140px;
 }
@@ -67,7 +60,15 @@ header{
     transform: scale(2);
 }**/
 
-
+/*carousel*/
+.tamañocarousel{
+    height: 600px;
+    width: 900px;
+}
+.letraCarousel{
+    background-color: #d6d6d678;
+    color:#672d18;
+}
 /**main**/
 
 main{
@@ -91,15 +92,18 @@ main{
     font-size: 18px;
     padding: 25px;
 }
+.mainPedidosPersonalizados p span{
+    font-size: 15px;
+}
 .mainNuestrasDelicias{
     width: 100%;
     height: 100%;
 }
 .tipografia-style{
     font-family: 'Montserrat Alternates';
-    color: #8C3D20;
+    color: #672d18;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     text-decoration:underline ;
     padding: 70px;
 }
@@ -113,9 +117,6 @@ main{
     font-family: 'Montserrat Alternates';
     color: #8C3D20;
     padding: 20px;
-}
-.mainPedidosPersonalizados p span{
-    font-size: 15px;
 }
 .sectionBannerIndex{
     width: 100%;
