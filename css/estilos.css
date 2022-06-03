@@ -61,10 +61,6 @@ header{
 }**/
 
 /*carousel*/
-.tamañocarousel{
-    height: 600px;
-    width: 900px;
-}
 .letraCarousel{
     background-color: #d6d6d678;
     color:#672d18;
@@ -76,7 +72,6 @@ header{
 .accordion-button{
     background-color: #d98c5fa4;
     color: #672d18;
-    padding: ;
 }
 /**main**/
 
@@ -413,6 +408,10 @@ footer a:hover{
         border-radius: 50%;
         box-shadow: 0 0 20px #672d18;
     }
+    .bannerPedidosPersonalizados{
+        height: 200px;
+        padding: 10px;
+    }
     .bannerNuestrasDelicias{
         height: 200px;
         padding: 10px;
@@ -437,5 +436,11 @@ footer a:hover{
         grid-template-columns: 240px;
         grid-template-rows: 200px 200px 200px;
         justify-content: center;
+    }
+    .imagenCentralNosotros{
+        width: 250px;
+        height: 200px;
+        margin-left: 20%;
+        padding-bottom: 30px;
     }
 }
