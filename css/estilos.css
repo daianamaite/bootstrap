@@ -88,6 +88,17 @@ main{
     text-align: center;
     font-family: 'Montserrat Alternates';
 }
+.nleft{
+    background-color: #d6d6d6;
+    height: 500px;
+    background-image: url(../img/baker.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nright{
+    background-color: #672d18;
+    height: 300px;
+}
 .mainNosotros h4{
     padding: 20px;
     text-align: center;
