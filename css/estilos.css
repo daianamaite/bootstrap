@@ -73,6 +73,7 @@ header{
     background-color: #d98c5fa4;
     color: #672d18;
 }
+
 /**main**/
 
 main{
@@ -87,10 +88,19 @@ main{
     text-align: center;
     font-family: 'Montserrat Alternates';
 }
+.mainNosotros h4{
+    padding: 20px;
+    text-align: center;
+    font-family: 'Montserrat Alternates';
+}
 .mainNosotros p{
-    padding: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
     text-align: center;
     font-size: 18px;
+}
+.text-muted{
+    font-size: 19px;
 }
 .mainServicioLunch h2{
     padding: 20px;
