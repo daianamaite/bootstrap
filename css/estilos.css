@@ -156,7 +156,6 @@ main{
 }
 .mainNuestrasDelicias p{
     text-align: center;
-    padding-bottom: 15px;
     font-size: 18px;
 }
 .tipografia-style{
@@ -165,7 +164,8 @@ main{
     text-align: center;
     font-size: 30px;
     text-decoration:underline ;
-    padding: 70px;
+    padding: 30px;
+    padding-top: 50px;
 }
 .tipografia-style:hover{
     transition: all 2s;
