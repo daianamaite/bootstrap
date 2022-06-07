@@ -35,12 +35,19 @@ header{
     width: 100%;
     font-family: 'Pontano Sans', sans-serif;
     font-size: 20px;
-    background-color: #f2c58dc1;
 
 }
 /*Personizando NavBar bootstrap*/
 .fondoNavBar{
     background-color: #8C5C4A;
+}
+
+.logo{
+    height: 140px;
+}
+.nav1{
+    padding-left: 0%;
+    padding-right: 0%;
 }
 .navbar-nav li{
     font-size: 20px;
@@ -49,12 +56,13 @@ header{
     text-decoration: none;
     color: #672d18;
 }
-.navbar-nav a:hover{
+.navbar-nav li a:hover{
     color: #d6d6d6;
 }
-.logo{
-    height: 140px;
+.navbar-toggler{
+    background-color: #672d1852;
 }
+
 /**.logo:hover{
     transition: all 2s;
     transform: scale(2);
@@ -287,7 +295,13 @@ main{
     grid-template-rows: 310px;
     justify-content: center;
 }
-
+.gridFavorito{
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 410px 410px 410px;
+    grid-template-rows: 310px;
+    justify-content: center;
+}
 /**footer**/
 
 footer{
