@@ -36,17 +36,29 @@ header{
     width: 100%;
     font-family: 'Pontano Sans', sans-serif;
     font-size: 20px;
-
+    @media screen and (max-width:450px){
+        font-size: 10px;
+        width: auto;
+    }
 }
+
 /*NavBar*/
 .fondoNavBar{
     background-color: $color4;
 }
 .logo{
     height: 140px;
+
+    @media screen and (max-width:450px){
+        height: 90px;
+    }
 }
 .navbar-nav li{
     font-size: 20px;
+
+    @media screen and (max-width:450px){
+        font-size: 18px;
+    }
 
     a{
         text-decoration: none;
@@ -59,19 +71,7 @@ header{
 .navbar-toggler{
     background-color: #672d1852;
 }
-/*carousel*/
-.letraCarousel{
-    background-color: #d6d6d678;
-    color:$color7;
-}
-/*Acordeon*/
-.colorAcordeon{
-    color: $color7;
-}
-.accordion-button{
-    background-color: #d98c5fa4;
-    color: $color7;
-}
+
 /**main**/
 main{
     height: 100%;
@@ -92,6 +92,11 @@ main{
     justify-content: flex-end;
     align-items:center;
 
+    @media screen and (max-width:450px){
+        height: 200px;
+        padding: 10px;
+    }
+
     span{
         text-decoration-line: underline;
     }
@@ -109,6 +114,14 @@ main{
         &:hover{
             color: $color5;
         }
+
+        @media screen and (max-width:450px){
+            height: 10px;
+            width: 30px;
+            padding: 5px 10px;
+            font-size: 18px;
+            border-radius: 10px;
+        }
     }
 }
 .tipografia-style{
@@ -117,12 +130,19 @@ main{
     text-align: center;
     font-size: 30px;
     text-decoration:underline ;
-    padding: 30px;
+    padding: 40px;
     padding-top: 50px;
-}
-.tipografia-style:hover{
-    transition: all 2s;
-    transform:scale(2);
+
+    &:hover{
+        transition: all 2s;
+        transform:scale(2);
+    }
+
+    @media screen and (max-width:450px){
+        font-size: 25px;
+        padding: 5px;
+        padding-top: 30px;
+    }
 }
 .sectionBanner2-index{
     width: 100%;
@@ -136,6 +156,11 @@ main{
     justify-content: space-evenly;
     align-items:baseline;
 
+    @media screen and (max-width:450px){
+        height: 200px;
+        padding: 10px;
+    }
+
     p{
         height: 60px;
         width: 380px;
@@ -146,6 +171,14 @@ main{
         font-size: 30px;
         font-style: italic;
         text-align: center;
+
+        @media screen and (max-width:450px){
+            height: 45px;
+            width: 260px;
+            padding: 5px 10px;
+            border-radius: 10px;
+            font-size: 20px;
+        }
     }
 
     a{
@@ -159,6 +192,14 @@ main{
 
         &:hover{
             color: $color5;
+        }
+
+        @media screen and (max-width:450px){
+            height: 40px;
+            width: 230px;
+            padding: 10px 15px;
+            border-radius: 10px;
+            font-size: 15px;
         }
     }
 }
@@ -221,11 +262,35 @@ main{
         text-align: center;
         font-size: 18px;
     }
+
+    div{
+        .colorAcordeon{
+            color: $color7;
+        }
+        .accordion-button{
+            background-color: #d98c5fa4;
+            color: $color7;
+        }
+    }
 }
 /**main pedidos personalizados**/
 .mainPedidosPersonalizados{
     text-align: center;
     padding-bottom: 15px;
+
+    .bannerPedidosPersonalizados{
+        width: 100%;
+        height: 600px;
+        padding: 15px;
+        background-image: url(../img/chessecake.jpg);
+        background-size: cover;
+        background-position: center;
+
+        @media screen and (max-width:450px){
+        height: 200px;
+        padding: 10px;
+        }
+    }
 
     div{
         h2{
@@ -237,6 +302,10 @@ main{
             text-align: center;
             padding-bottom: 25px;
             font-size: 18px;
+
+            @media screen and (max-width:450px){
+                padding-bottom: 5px;
+            }
         }
     }
 
@@ -249,19 +318,25 @@ main{
         }
     }
 }
-.bannerPedidosPersonalizados{
-    width: 100%;
-    height: 600px;
-    padding: 15px;
-    background-image: url(../img/chessecake.jpg);
-    background-size: cover;
-    background-position: center;
-}
 /**main nuestras delicias**/
 .mainNuestrasDelicias{
     width: 100%;
     height: 100%;
     text-align: center;
+
+    .bannerNuestrasDelicias{
+        width: 100%;
+        height: 600px;
+        padding: 15px;
+        background-image: url(../img/selvaNegra.jpg);
+        background-size: cover;
+        background-position: center;
+
+        @media screen and (max-width:450px){
+        height: 200px;
+        padding: 10px;
+        }
+    }
 
     h2{
         padding: 20px;
@@ -271,28 +346,18 @@ main{
     p{
         font-size: 18px;
     }
+
+    div{
+        .carousel{
+
+        }
+        .letraCarousel{
+            background-color: #d6d6d678;
+            color:$color7;
+        }
+    }
 }
-/**.imagenGaleriaNuestrasDelicias{
-    width: 400px;
-    height: 300px;
-    padding: 15px;
-    margin-left: 20px;
-}
-.gridNuestrasDeliciasGaleria{
-    padding-bottom: 50px;
-    display: grid;
-    grid-template-columns: 410px 410px 410px;
-    grid-template-rows: 310px;
-    justify-content: center;
-}**/
-.bannerNuestrasDelicias{
-    width: 100%;
-    height: 600px;
-    padding: 15px;
-    background-image: url(../img/selvaNegra.jpg);
-    background-size: cover;
-    background-position: center;
-}
+
 /**footer**/
 footer{
     padding: 10px;
@@ -304,6 +369,11 @@ footer{
     display: flex;
     align-items: center;
 
+    @media screen and (max-width:450px){
+        padding: 5px;
+        min-height: 50px;
+    }
+
     .redes{
         ul{
             padding: 5px;
@@ -313,7 +383,7 @@ footer{
                 margin-top: 10px;
                 margin-left: 15px;
                 list-style: none;
-    
+                
                 a{
                     text-decoration: none;
                     text-transform: capitalize;
@@ -337,7 +407,11 @@ footer{
             padding: 10px;
             color: $color5;
             text-align: center;
-            padding-left: 460px;
+            padding-left: 200px;
+
+            @media screen and (max-width:450px){
+                padding-left: 100px;
+            }
         }
     }
 }

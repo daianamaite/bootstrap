@@ -29,6 +29,12 @@ header {
   font-family: "Pontano Sans", sans-serif;
   font-size: 20px;
 }
+@media screen and (max-width: 450px) {
+  header {
+    font-size: 10px;
+    width: auto;
+  }
+}
 
 /*NavBar*/
 .fondoNavBar {
@@ -38,9 +44,19 @@ header {
 .logo {
   height: 140px;
 }
+@media screen and (max-width: 450px) {
+  .logo {
+    height: 90px;
+  }
+}
 
 .navbar-nav li {
   font-size: 20px;
+}
+@media screen and (max-width: 450px) {
+  .navbar-nav li {
+    font-size: 18px;
+  }
 }
 .navbar-nav li a {
   text-decoration: none;
@@ -52,22 +68,6 @@ header {
 
 .navbar-toggler {
   background-color: rgba(103, 45, 24, 0.3215686275);
-}
-
-/*carousel*/
-.letraCarousel {
-  background-color: rgba(214, 214, 214, 0.4705882353);
-  color: #672d18;
-}
-
-/*Acordeon*/
-.colorAcordeon {
-  color: #672d18;
-}
-
-.accordion-button {
-  background-color: rgba(217, 140, 95, 0.6431372549);
-  color: #672d18;
 }
 
 /**main**/
@@ -91,6 +91,12 @@ main {
   justify-content: flex-end;
   align-items: center;
 }
+@media screen and (max-width: 450px) {
+  .sectionBannerIndex {
+    height: 200px;
+    padding: 10px;
+  }
+}
 .sectionBannerIndex span {
   text-decoration-line: underline;
 }
@@ -107,6 +113,15 @@ main {
 .sectionBannerIndex a:hover {
   color: #D9D9D9;
 }
+@media screen and (max-width: 450px) {
+  .sectionBannerIndex a {
+    height: 10px;
+    width: 30px;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+}
 
 .tipografia-style {
   font-family: "Montserrat Alternates";
@@ -114,13 +129,19 @@ main {
   text-align: center;
   font-size: 30px;
   text-decoration: underline;
-  padding: 30px;
+  padding: 40px;
   padding-top: 50px;
 }
-
 .tipografia-style:hover {
   transition: all 2s;
   transform: scale(2);
+}
+@media screen and (max-width: 450px) {
+  .tipografia-style {
+    font-size: 25px;
+    padding: 5px;
+    padding-top: 30px;
+  }
 }
 
 .sectionBanner2-index {
@@ -135,6 +156,12 @@ main {
   justify-content: space-evenly;
   align-items: baseline;
 }
+@media screen and (max-width: 450px) {
+  .sectionBanner2-index {
+    height: 200px;
+    padding: 10px;
+  }
+}
 .sectionBanner2-index p {
   height: 60px;
   width: 380px;
@@ -145,6 +172,15 @@ main {
   font-size: 30px;
   font-style: italic;
   text-align: center;
+}
+@media screen and (max-width: 450px) {
+  .sectionBanner2-index p {
+    height: 45px;
+    width: 260px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
 }
 .sectionBanner2-index a {
   height: 50px;
@@ -157,6 +193,15 @@ main {
 }
 .sectionBanner2-index a:hover {
   color: #D9D9D9;
+}
+@media screen and (max-width: 450px) {
+  .sectionBanner2-index a {
+    height: 40px;
+    width: 230px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
 }
 
 /**Main Nosotros**/
@@ -205,11 +250,32 @@ main {
   text-align: center;
   font-size: 18px;
 }
+.mainServicioLunch div .colorAcordeon {
+  color: #672d18;
+}
+.mainServicioLunch div .accordion-button {
+  background-color: rgba(217, 140, 95, 0.6431372549);
+  color: #672d18;
+}
 
 /**main pedidos personalizados**/
 .mainPedidosPersonalizados {
   text-align: center;
   padding-bottom: 15px;
+}
+.mainPedidosPersonalizados .bannerPedidosPersonalizados {
+  width: 100%;
+  height: 600px;
+  padding: 15px;
+  background-image: url(../img/chessecake.jpg);
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (max-width: 450px) {
+  .mainPedidosPersonalizados .bannerPedidosPersonalizados {
+    height: 200px;
+    padding: 10px;
+  }
 }
 .mainPedidosPersonalizados div h2 {
   padding: 20px;
@@ -220,6 +286,11 @@ main {
   padding-bottom: 25px;
   font-size: 18px;
 }
+@media screen and (max-width: 450px) {
+  .mainPedidosPersonalizados div p {
+    padding-bottom: 5px;
+  }
+}
 .mainPedidosPersonalizados p {
   font-size: 17px;
   padding: 25px;
@@ -228,20 +299,25 @@ main {
   font-size: 15px;
 }
 
-.bannerPedidosPersonalizados {
-  width: 100%;
-  height: 600px;
-  padding: 15px;
-  background-image: url(../img/chessecake.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
 /**main nuestras delicias**/
 .mainNuestrasDelicias {
   width: 100%;
   height: 100%;
   text-align: center;
+}
+.mainNuestrasDelicias .bannerNuestrasDelicias {
+  width: 100%;
+  height: 600px;
+  padding: 15px;
+  background-image: url(../img/selvaNegra.jpg);
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (max-width: 450px) {
+  .mainNuestrasDelicias .bannerNuestrasDelicias {
+    height: 200px;
+    padding: 10px;
+  }
 }
 .mainNuestrasDelicias h2 {
   padding: 20px;
@@ -250,27 +326,9 @@ main {
 .mainNuestrasDelicias p {
   font-size: 18px;
 }
-
-/**.imagenGaleriaNuestrasDelicias{
-    width: 400px;
-    height: 300px;
-    padding: 15px;
-    margin-left: 20px;
-}
-.gridNuestrasDeliciasGaleria{
-    padding-bottom: 50px;
-    display: grid;
-    grid-template-columns: 410px 410px 410px;
-    grid-template-rows: 310px;
-    justify-content: center;
-}**/
-.bannerNuestrasDelicias {
-  width: 100%;
-  height: 600px;
-  padding: 15px;
-  background-image: url(../img/selvaNegra.jpg);
-  background-size: cover;
-  background-position: center;
+.mainNuestrasDelicias div .letraCarousel {
+  background-color: rgba(214, 214, 214, 0.4705882353);
+  color: #672d18;
 }
 
 /**footer**/
@@ -283,6 +341,12 @@ footer {
   background-color: #8C5C4A;
   display: flex;
   align-items: center;
+}
+@media screen and (max-width: 450px) {
+  footer {
+    padding: 5px;
+    min-height: 50px;
+  }
 }
 footer .redes ul {
   padding: 5px;
@@ -311,7 +375,12 @@ footer .footerDireccion p {
   padding: 10px;
   color: #D9D9D9;
   text-align: center;
-  padding-left: 460px;
+  padding-left: 200px;
+}
+@media screen and (max-width: 450px) {
+  footer .footerDireccion p {
+    padding-left: 100px;
+  }
 }
 
 .subir {

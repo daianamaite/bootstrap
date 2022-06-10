@@ -479,3 +479,136 @@ footer a:hover{
         padding-bottom: 30px;
     }
 }
+/**
+@media screen and (max-width:450px) {
+    header {
+        font-size: 10px;
+        width: auto;
+    }
+    .logo {
+        height: 60px;
+
+    .navbar-nav li {
+        font-size: 5px;
+    }
+    .sectionBannerIndex {
+        height: 200px;
+        padding: 10px;
+
+        a {
+            height: 10px;
+            width: 30px;
+            padding: 5px 10px;
+            font-size: 10px;
+            border-radius: 10px;
+        }
+    }
+    .tipografia-style {
+        font-size: 15px;
+        padding: 10px;
+    }
+    .sectionBanner2-index {
+        height: 200px;
+        padding: 10px;
+
+        p {
+            height: 25px;
+            width: 190px;
+            padding: 5px 10px;
+            border-radius: 10px;
+            font-size: 15px;
+        }
+
+        a {
+            height: 30px;
+            width: 160px;
+            padding: 10px 15px;
+            border-radius: 10px;
+            font-size: 10px;
+            background-color: #8c5c4adb;
+            color: #D98C5F;
+        }
+    }
+
+    footer {
+        padding: 5px;
+        min-height: 50px;
+        font-size: 10px;
+    
+        .redes {
+            ul {
+                padding: 5px;
+                li {
+                    margin-top: 5px;
+                    margin-left: 10px;
+        
+                    a {
+                        text-decoration: none;
+                        text-transform: capitalize;
+                        color: $color5;
+    
+                        &:hover {
+                            color: $color7;
+                        }
+                    }
+    
+                    .fa-brands {
+                        letter-spacing: 2px;
+                    }
+                }
+            }
+        }
+        .footerDireccion {
+            p {
+                padding: 5px;
+                padding-left: 70px;
+            }
+        }
+    }
+
+    .subir{
+        height: 25px;
+        width: 25px;
+        bottom: 25px;
+        right: 25px;
+        line-height: 30px;
+        font-size: 10px;
+        border-radius: 50%;
+        box-shadow: 0 0 20px #672d18;
+    }
+
+    .bannerPedidosPersonalizados{
+        height: 200px;
+        padding: 10px;
+    }
+    .bannerNuestrasDelicias{
+        height: 200px;
+        padding: 10px;
+
+        p{
+            padding: 5px;
+            font-size: 10px;
+            text-align: center;
+        }
+    }
+    /**
+    .imagenGaleriaNuestrasDelicias{
+        width: 230px;
+        height: 190px;
+        padding: 5px;
+        margin-left: 5px;
+    }
+    .gridNuestrasDeliciasGaleria{
+        display: grid;
+        grid-template-columns: 240px;
+        grid-template-rows: 200px 200px 200px;
+        justify-content: center;
+    }
+    .imagenCentralNosotros{
+        width: 250px;
+        height: 200px;
+        margin-left: 20%;
+        padding-bottom: 30px;
+    }
+}
+**/
