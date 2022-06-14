@@ -1,28 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Pontano+Sans&display=swap");
-/* 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Pontano+Sans&display=swap"); /**Paleta de color**/
+/*
 tipografias
 font-family: 'Montserrat Alternates', sans-serif; principal
 font-family: 'Pontano Sans', sans-serif; secundaria
 paleta de color
-#F2C48D 
-#D98C5F
-#8C3D20
-#8C5C4A
-#D9D9D9
-#63432b
-#672d18
 */
-/**Variables**/
-* {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
 header {
   margin: 0px;
   width: 100%;
@@ -70,7 +52,6 @@ header {
   background-color: rgba(103, 45, 24, 0.3215686275);
 }
 
-/**main**/
 main {
   height: 100%;
   width: 100%;
@@ -331,7 +312,6 @@ main {
   color: #672d18;
 }
 
-/**footer**/
 footer {
   padding: 10px;
   min-height: 90px;
@@ -396,6 +376,23 @@ footer .footerDireccion p {
   font-size: 25px;
   border-radius: 50%;
   box-shadow: 0 0 30px #672d18;
+}
+
+/**Paleta de color**/
+/*
+tipografias
+font-family: 'Montserrat Alternates', sans-serif; principal
+font-family: 'Pontano Sans', sans-serif; secundaria
+paleta de color
+*/
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /*# sourceMappingURL=estilos.css.map */

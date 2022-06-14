@@ -1,0 +1,42 @@
+@import "../utilities/variables";
+
+header{
+    margin: 0px;
+    width: 100%;
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 20px;
+    @media screen and (max-width:450px){
+        font-size: 10px;
+        width: auto;
+    }
+}
+
+/*NavBar*/
+.fondoNavBar{
+    background-color: $color4;
+}
+.logo{
+    height: 140px;
+
+    @media screen and (max-width:450px){
+        height: 90px;
+    }
+}
+.navbar-nav li{
+    font-size: 20px;
+
+    @media screen and (max-width:450px){
+        font-size: 18px;
+    }
+
+    a{
+        text-decoration: none;
+        color: $color7;
+        &:hover{
+            color: $color5;
+        }
+    }
+}
+.navbar-toggler{
+    background-color: #672d1852;
+}
