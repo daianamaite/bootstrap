@@ -1,10 +1,15 @@
+@import "../utilities/variables";
+@import "../utilities/mapas";
+
+/*FOOTER*/
+
 footer{
     padding: 10px;
     min-height: 90px;
     width: 100%;
-    font-family: 'Pontano Sans', sans-serif;
-    font-size: 15px;
-    background-color: $color4;
+    font-family: $fontSecundaria;
+    font-size: map-get($footer, font-size);
+    background-color: map-get($footer, background-color);
     display: flex;
     align-items: center;
 

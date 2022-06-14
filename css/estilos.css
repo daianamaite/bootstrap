@@ -3,8 +3,8 @@
 tipografias
 font-family: 'Montserrat Alternates', sans-serif; principal
 font-family: 'Pontano Sans', sans-serif; secundaria
-paleta de color
 */
+/*HEADER*/
 header {
   margin: 0px;
   width: 100%;
@@ -52,6 +52,31 @@ header {
   background-color: rgba(103, 45, 24, 0.3215686275);
 }
 
+/**Paleta de color**/
+/*
+tipografias
+font-family: 'Montserrat Alternates', sans-serif; principal
+font-family: 'Pontano Sans', sans-serif; secundaria
+*/
+/**Paleta de color**/
+/*
+tipografias
+font-family: 'Montserrat Alternates', sans-serif; principal
+font-family: 'Pontano Sans', sans-serif; secundaria
+*/
+.mainPedidosPersonalizados div h2, .mainServicioLunch h2, .mainNosotros div div .nrigth h3 {
+  padding: 20px;
+  text-align: center;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+/**Paleta de color**/
+/*
+tipografias
+font-family: 'Montserrat Alternates', sans-serif; principal
+font-family: 'Pontano Sans', sans-serif; secundaria
+*/
+/*MAIN*/
 main {
   height: 100%;
   width: 100%;
@@ -60,7 +85,7 @@ main {
   background-color: rgba(217, 140, 95, 0.6431372549);
 }
 
-/**main index**/
+/**INDEX**/
 .sectionBannerIndex {
   width: 100%;
   height: 600px;
@@ -185,7 +210,7 @@ main {
   }
 }
 
-/**Main Nosotros**/
+/**NOSOTROS**/
 .mainNosotros h2 {
   padding: 20px;
   text-align: center;
@@ -205,11 +230,6 @@ main {
 .mainNosotros div div .nrigth {
   height: 750px;
 }
-.mainNosotros div div .nrigth h3 {
-  padding: 20px;
-  text-align: center;
-  font-family: "Montserrat Alternates";
-}
 .mainNosotros div div .nrigth p {
   padding: 10px;
   padding-bottom: 20px;
@@ -220,12 +240,7 @@ main {
   font-size: 18px;
 }
 
-/**Main servicio de lunch**/
-.mainServicioLunch h2 {
-  padding: 20px;
-  text-align: center;
-  font-family: "Montserrat Alternates";
-}
+/**SERVICIO DE LUNCH**/
 .mainServicioLunch p {
   padding: 20px;
   text-align: center;
@@ -239,7 +254,7 @@ main {
   color: #672d18;
 }
 
-/**main pedidos personalizados**/
+/**PEDIDOS PERSONALIZADOS**/
 .mainPedidosPersonalizados {
   text-align: center;
   padding-bottom: 15px;
@@ -257,10 +272,6 @@ main {
     height: 200px;
     padding: 10px;
   }
-}
-.mainPedidosPersonalizados div h2 {
-  padding: 20px;
-  font-family: "Montserrat Alternates";
 }
 .mainPedidosPersonalizados div p {
   text-align: center;
@@ -280,7 +291,7 @@ main {
   font-size: 15px;
 }
 
-/**main nuestras delicias**/
+/**NUESTRAS DELICIAS**/
 .mainNuestrasDelicias {
   width: 100%;
   height: 100%;
@@ -312,6 +323,19 @@ main {
   color: #672d18;
 }
 
+/**Paleta de color**/
+/*
+tipografias
+font-family: 'Montserrat Alternates', sans-serif; principal
+font-family: 'Pontano Sans', sans-serif; secundaria
+*/
+/**Paleta de color**/
+/*
+tipografias
+font-family: 'Montserrat Alternates', sans-serif; principal
+font-family: 'Pontano Sans', sans-serif; secundaria
+*/
+/*FOOTER*/
 footer {
   padding: 10px;
   min-height: 90px;
@@ -383,7 +407,6 @@ footer .footerDireccion p {
 tipografias
 font-family: 'Montserrat Alternates', sans-serif; principal
 font-family: 'Pontano Sans', sans-serif; secundaria
-paleta de color
 */
 * {
   margin: 0%;

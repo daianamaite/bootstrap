@@ -1,3 +1,9 @@
+@import "../utilities/variables";
+@import "../utilities/mixin";
+@import "../utilities/extend";
+@import "../utilities/mapas";
+
+/*MAIN*/
 
 main{
     height: 100%;
@@ -7,7 +13,8 @@ main{
     background-color: #d98c5fa4;    
 }
 
-/**main index**/
+/**INDEX**/
+
 .sectionBannerIndex{
     width: 100%;
     height: 600px;
@@ -20,8 +27,7 @@ main{
     align-items:center;
 
     @media screen and (max-width:450px){
-        height: 200px;
-        padding: 10px;
+        @include sizeBannerMediaQuery;
     }
 
     span{
@@ -56,7 +62,7 @@ main{
     color: $color7;
     text-align: center;
     font-size: 30px;
-    text-decoration:underline ;
+    text-decoration:underline;
     padding: 40px;
     padding-top: 50px;
 
@@ -84,8 +90,7 @@ main{
     align-items:baseline;
 
     @media screen and (max-width:450px){
-        height: 200px;
-        padding: 10px;
+        @include sizeBannerMediaQuery;
     }
 
     p{
@@ -131,7 +136,8 @@ main{
     }
 }
 
-/**Main Nosotros**/
+/**NOSOTROS**/
+
 .mainNosotros{
     h2{
         padding: 20px;
@@ -157,9 +163,7 @@ main{
                 height: 750px;
     
                 h3{
-                    padding: 20px;
-                    text-align: center;
-                    font-family: 'Montserrat Alternates';
+                    @extend %h;
                 }
     
                 p{
@@ -176,12 +180,11 @@ main{
         }
     }
 }
-/**Main servicio de lunch**/
+/**SERVICIO DE LUNCH**/
+
 .mainServicioLunch{
     h2{
-        padding: 20px;
-        text-align: center;
-        font-family: 'Montserrat Alternates';
+        @extend %h;
     }
 
     p{
@@ -200,29 +203,26 @@ main{
         }
     }
 }
-/**main pedidos personalizados**/
+/**PEDIDOS PERSONALIZADOS**/
+
 .mainPedidosPersonalizados{
     text-align: center;
     padding-bottom: 15px;
 
     .bannerPedidosPersonalizados{
-        width: 100%;
-        height: 600px;
-        padding: 15px;
+        @include sizeBanner;
         background-image: url(../img/chessecake.jpg);
         background-size: cover;
         background-position: center;
 
         @media screen and (max-width:450px){
-        height: 200px;
-        padding: 10px;
+        @include sizeBannerMediaQuery;
         }
     }
 
     div{
         h2{
-            padding: 20px;
-            font-family: 'Montserrat Alternates';
+            @extend %h;
         }
 
         p{
@@ -245,23 +245,22 @@ main{
         }
     }
 }
-/**main nuestras delicias**/
+
+/**NUESTRAS DELICIAS**/
+
 .mainNuestrasDelicias{
     width: 100%;
     height: 100%;
     text-align: center;
 
     .bannerNuestrasDelicias{
-        width: 100%;
-        height: 600px;
-        padding: 15px;
+        @include sizeBanner;
         background-image: url(../img/selvaNegra.jpg);
         background-size: cover;
         background-position: center;
 
         @media screen and (max-width:450px){
-        height: 200px;
-        padding: 10px;
+        @include sizeBannerMediaQuery;
         }
     }
 
@@ -275,9 +274,6 @@ main{
     }
 
     div{
-        .carousel{
-
-        }
         .letraCarousel{
             background-color: #d6d6d678;
             color:$color7;

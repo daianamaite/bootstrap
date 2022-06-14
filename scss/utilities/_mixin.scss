@@ -1,0 +1,9 @@
+@mixin sizeBanner {
+    width: 100%;
+    height: 600px;
+    padding: 15px;;
+}
+@mixin sizeBannerMediaQuery{
+    height: 200px;
+    padding: 10px;
+}
