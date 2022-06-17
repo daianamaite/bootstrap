@@ -288,6 +288,14 @@ main{
     }
 
     div{
+        .container{
+            @media screen and (max-width:450px){
+                padding-right: 0%;
+                padding-left: 0%;
+                margin-left: 0%;
+                margin-right: 0%;
+            }
+        }
         .letraCarousel{
             background-color: #d6d6d678;
             color:$color7;
@@ -299,6 +307,7 @@ main{
             }
 
             p{
+                text-align: center;
                 @media screen and (max-width:450px){
                     font-size: 12px;
                 }
@@ -322,13 +331,15 @@ main{
             padding-left: 15px;
 
             @media screen and (max-width:450px){
-                font-size: 17px;;
+                font-size: 17px;
             }
         }
     }
 }
-
-/*CAROUSEL*/
+.pSalado{
+    padding-bottom: 25px;
+}
+/*CAROUSELES*/
 .tamañoCarousel{
     padding: 20px;
     padding-bottom: 50px;
@@ -342,8 +353,6 @@ main{
     padding: 20px;
     padding-bottom: 50px;
     @media screen and (max-width:450px){
-        width: 400px;
-        padding: 20px;
-        padding-right: 110px;
+        width: 120%;
     }
 }
