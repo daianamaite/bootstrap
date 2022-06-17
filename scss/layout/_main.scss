@@ -26,6 +26,11 @@ main{
     justify-content: flex-end;
     align-items:center;
 
+    @media screen and (max-width:760px){
+        height: 400px;
+        padding: 10px;
+    }
+
     @media screen and (max-width:450px){
         @include sizeBannerMediaQuery;
     }
@@ -69,6 +74,14 @@ main{
     &:hover{
         transition: all 2s;
         transform:scale(2);
+
+        @media screen and (max-width:760px){
+            transform: none;
+        }
+
+        @media screen and (max-width:450px){
+            transform: none;
+        }
     }
 
     @media screen and (max-width:450px){
@@ -89,6 +102,11 @@ main{
     justify-content: space-evenly;
     align-items:baseline;
 
+    @media screen and (max-width:760px){
+        height: 300px;
+        padding: 10px;
+    }
+
     @media screen and (max-width:450px){
         @include sizeBannerMediaQuery;
     }
@@ -103,6 +121,14 @@ main{
         font-size: 30px;
         font-style: italic;
         text-align: center;
+
+        @media screen and (max-width:760px){
+            height: 45px;
+            width: 310px;
+            padding: 5px 10px;
+            border-radius: 10px;
+            font-size: 25px;
+        }
 
         @media screen and (max-width:450px){
             height: 45px;
@@ -139,7 +165,7 @@ main{
 /**NOSOTROS**/
 
 .mainNosotros{
-    h2{
+    h1{
         padding: 20px;
         text-align: center;
         font-family: 'Montserrat Alternates';
@@ -148,7 +174,7 @@ main{
         div{
             p{
                 text-align: center;
-                font-size: 20px;
+                font-size: 18px;
                 padding-bottom: 15px;
             }
     
@@ -157,12 +183,24 @@ main{
                 background-image: url(../img/baker.jpg);
                 background-size: cover;
                 background-position: center;
+
+                @media screen and (max-width:760px){
+                    height: 600px;
+                }
             }
     
             .nrigth{
                 height: 750px;
+
+                @media screen and (max-width:760px){
+                    height: auto;
+                }
+
+                @media screen and (max-width:450px){
+                    height: auto;
+                }
     
-                h3{
+                h2{
                     @extend %h;
                 }
     
@@ -173,6 +211,7 @@ main{
                     font-size: 18px;
     
                     .text-muted{
+                        font-style: italic;
                         font-size: 18px;
                     }
                 }
@@ -183,7 +222,7 @@ main{
 /**SERVICIO DE LUNCH**/
 
 .mainServicioLunch{
-    h2{
+    h1{
         @extend %h;
     }
 
@@ -200,12 +239,19 @@ main{
         .accordion-button{
             background-color: #d98c5fa4;
             color: $color7;
+            font-size: 20px;
 
             @media screen and (max-width:450px){
                 font-size: 15px;
             }
         }
         p{
+            a{
+                color: $color7;
+                &:hover{
+                    color: $color1;
+                }
+            }
             @media screen and (max-width:450px){
                 font-size: 15px;
             }
@@ -228,13 +274,18 @@ main{
         background-size: cover;
         background-position: center;
 
+        @media screen and (max-width:760px){
+            height: 400px;
+            padding: 10px;
+        }
+
         @media screen and (max-width:450px){
         @include sizeBannerMediaQuery;
         }
     }
 
     div{
-        h2{
+        h1{
             @extend %h;
         }
 
@@ -271,6 +322,11 @@ main{
         background-size: cover;
         background-position: center;
 
+        @media screen and (max-width:760px){
+            height: 400px;
+            padding: 10px;
+        }
+
         @media screen and (max-width:450px){
         @include sizeBannerMediaQuery;
         }
@@ -297,7 +353,7 @@ main{
             }
         }
         .letraCarousel{
-            background-color: #d6d6d678;
+            background-color: #d6d6d69a;
             color:$color7;
 
             h3{
@@ -328,7 +384,7 @@ main{
 
         p{
             text-align: left;
-            padding-left: 15px;
+            padding-left: 20px;
 
             @media screen and (max-width:450px){
                 font-size: 17px;
@@ -337,7 +393,7 @@ main{
     }
 }
 .pSalado{
-    padding-bottom: 25px;
+    padding-bottom: 50px;
 }
 /*CAROUSELES*/
 .tamañoCarousel{
