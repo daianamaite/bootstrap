@@ -310,6 +310,7 @@ main {
   }
 }
 .mainServicioLunch .p2 {
+  margin-bottom: 0%;
   font-size: 15px;
 }
 
@@ -428,6 +429,7 @@ main {
 .mainNuestrasDelicias div p {
   text-align: left;
   padding-left: 20px;
+  margin-bottom: 0%;
 }
 @media screen and (max-width: 450px) {
   .mainNuestrasDelicias div p {
