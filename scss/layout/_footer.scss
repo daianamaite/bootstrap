@@ -51,7 +51,11 @@ footer{
             padding: 10px;
             color: $color5;
             text-align: center;
-            padding-left: 200px;
+            padding-left: 500px;
+
+            @media screen and (max-width:760px){
+                padding-left: 200px;
+            }
 
             @media screen and (max-width:450px){
                 padding-left: 100px;
