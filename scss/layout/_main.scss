@@ -116,7 +116,7 @@ main{
         width: 380px;
         padding: 10px 15px;
         border-radius: 10px;
-        color: $color5;
+        color: $color7;
         background-color: #8c5c4adb;
         font-size: 30px;
         font-style: italic;
@@ -146,10 +146,10 @@ main{
         border-radius: 10px;
         font-size: 20px;
         background-color: #8c5c4adb;
-        color: $color7;
+        color: $color5;
 
         &:hover{
-            color: $color5;
+            color: $color7;
         }
 
         @media screen and (max-width:450px){
@@ -393,9 +393,30 @@ main{
             }
         }
     }
+    
+    h3{
+        text-align: center;
+        padding: 20px;
+    }
 }
-.pSalado{
-    padding-bottom: 50px;
+
+.ndleft{
+    p{
+        padding-bottom: 30px;
+    }
+    img{
+        padding-left: 60px;
+        padding-bottom: 50px;
+    }
+}
+.ndrigth{
+    p{
+        padding-bottom: 30px;
+    }
+    img{
+        padding-left: 60px;
+        padding-bottom: 50px;
+    }
 }
 /*CAROUSELES*/
 .tamañoCarousel{
@@ -408,7 +429,7 @@ main{
     }
 }
 .tamañoCarouselND{
-    padding: 20px;
+    padding: 40px;
     padding-bottom: 50px;
     @media screen and (max-width:450px){
         width: 120%;

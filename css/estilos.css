@@ -187,7 +187,7 @@ main {
   width: 380px;
   padding: 10px 15px;
   border-radius: 10px;
-  color: #D9D9D9;
+  color: #672d18;
   background-color: rgba(140, 92, 74, 0.8588235294);
   font-size: 30px;
   font-style: italic;
@@ -218,10 +218,10 @@ main {
   border-radius: 10px;
   font-size: 20px;
   background-color: rgba(140, 92, 74, 0.8588235294);
-  color: #672d18;
+  color: #D9D9D9;
 }
 .sectionBanner2-index a:hover {
-  color: #D9D9D9;
+  color: #672d18;
 }
 @media screen and (max-width: 450px) {
   .sectionBanner2-index a {
@@ -436,8 +436,24 @@ main {
     font-size: 17px;
   }
 }
+.mainNuestrasDelicias h3 {
+  text-align: center;
+  padding: 20px;
+}
 
-.pSalado {
+.ndleft p {
+  padding-bottom: 30px;
+}
+.ndleft img {
+  padding-left: 60px;
+  padding-bottom: 50px;
+}
+
+.ndrigth p {
+  padding-bottom: 30px;
+}
+.ndrigth img {
+  padding-left: 60px;
   padding-bottom: 50px;
 }
 
@@ -455,7 +471,7 @@ main {
 }
 
 .tamañoCarouselND {
-  padding: 20px;
+  padding: 40px;
   padding-bottom: 50px;
 }
 @media screen and (max-width: 450px) {
@@ -525,6 +541,9 @@ footer .footerDireccion p {
 footer .logofooter {
   width: 150px;
   padding-right: 40px;
+}
+footer iframe {
+  padding-right: 100px;
 }
 
 /*FECHA PARA SUBIR*/
