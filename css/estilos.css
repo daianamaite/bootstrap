@@ -432,6 +432,9 @@ main {
   padding: 20px;
 }
 
+.ndleft {
+  height: auto;
+}
 .ndleft p {
   padding-bottom: 30px;
 }
@@ -441,38 +444,41 @@ main {
 }
 @media screen and (max-width: 760px) {
   .ndleft img {
-    height: 300px;
-    padding-left: 150px;
+    height: 350px;
+    padding-left: 110px;
     padding-bottom: 20px;
   }
 }
 @media screen and (max-width: 450px) {
   .ndleft img {
     height: 200px;
-    padding-left: 60px;
+    padding-left: 70px;
     padding-bottom: 30px;
   }
 }
 
+.ndrigth {
+  height: auto;
+}
 .ndrigth p {
   padding-bottom: 30px;
 }
 .ndrigth img {
-  padding-left: 60px;
+  padding-left: 80px;
   padding-bottom: 50px;
 }
 @media screen and (max-width: 760px) {
   .ndrigth img {
-    height: 300px;
-    padding-left: 150px;
+    height: 350px;
+    padding-left: 110px;
     padding-bottom: 30px;
   }
 }
 @media screen and (max-width: 450px) {
   .ndrigth img {
     height: 200px;
-    padding-left: 60px;
-    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-bottom: 30px;
   }
 }
 
@@ -493,11 +499,18 @@ main {
   padding: 40px;
   padding-bottom: 50px;
 }
+@media screen and (max-width: 760px) {
+  .tamañoCarouselND {
+    width: 115%;
+    padding: 20px;
+    padding-bottom: 40px;
+  }
+}
 @media screen and (max-width: 450px) {
   .tamañoCarouselND {
     width: 115%;
     padding: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
   }
 }
 
