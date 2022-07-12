@@ -327,11 +327,12 @@ main {
 .mainPedidosPersonalizados div p {
   text-align: center;
   padding-bottom: 25px;
-  font-size: 18px;
+  font-size: 25px;
 }
 @media screen and (max-width: 450px) {
   .mainPedidosPersonalizados div p {
     padding-bottom: 5px;
+    font-size: 20px;
   }
 }
 .mainPedidosPersonalizados p {
@@ -340,6 +341,22 @@ main {
 }
 .mainPedidosPersonalizados p span {
   font-size: 15px;
+}
+
+/**FORMULARIO**/
+.formularioP {
+  text-align: center;
+  padding: 15px;
+}
+.formularioP .opcionFormulario {
+  height: 35px;
+  font-size: 20px;
+}
+@media screen and (max-width: 450px) {
+  .formularioP .opcionFormulario {
+    height: 30px;
+    font-size: 17px;
+  }
 }
 
 /**NUESTRAS DELICIAS**/

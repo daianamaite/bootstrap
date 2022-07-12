@@ -59,31 +59,26 @@
         <!--EMPIEZA FORMULARIO-->
         <section>
             <form action="enviar.php" method="post" enctype="text/plain">
-                <label for="name1">Nombre</label>
-                <input type="text" name="name1" required><br>
-                <label for="apellido">Apellido</label>
-                <input type="text" name="apellido" required><br>
-                <label for="">Telefono</label>
-                <input type="numer" placeholder="223-5123456" required><br>
-                <label for="">Direccion</label>
-                <input type="text" placeholder="Unicamente si es delivey"><br>
-                <label for="">Correo</label>
-                <input type="mail"><br>
-                <label for="">Fecha de entrega</label>
-                <input type="date" required><br>
-                <label for="">Horario de entrega</label>
-                <input type="time" required><br>
-                <label for="">Adjudicar foto</label>
-                <input type="file"><br>
-                <label for="">Realiza tu pedido:</label><br>
-                <textarea name="" id="" cols="30" rows="5"
-                    placeholder="Escribe tu pedido lo mas detallado posible"></textarea><br>
-                <input type="submit"><br>
-                <br>
-                <label for="">Take Away</label>
-                <input type="checkbox" checked>
-                <label for="">Delivery</label>
-                <input type="checkbox">
+                <div class="formularioP">
+                    <label for="full name" class="opcionFormulario">Nombre y Apellido</label>
+                    <input type="text" required><br>
+                    <label for="numer" class="opcionFormulario">Telefono</label>
+                    <input type="numer" placeholder="223-5123456" required><br>
+                    <label for="text" class="opcionFormulario">Direccion</label>
+                    <input type="text"><br>
+                    <label for="date" class="opcionFormulario">Fecha de entrega</label>
+                    <input type="date" required><br>
+                    <label for="time" class="opcionFormulario">Horario de entrega</label>
+                    <input type="time" required><br>
+                    <label for="massege" class="opcionFormulario">Realiza tu pedido:</label><br>
+                    <textarea name="massege" id="" cols="30" rows="10"
+                        placeholder="Escribe tu pedido lo mas detallado posible!"></textarea><br>
+                    <input type="submit"><br>
+                    <br>
+                    <label for="checkbox" class="opcionFormulario">Take Away</label>
+                    <input type="checkbox" checked>
+                    <label for="checkbox" class="opcionFormulario">Delivery</label>
+                    <input type="checkbox"></div>
             </form>
         </section>
         <!--TERMINA FORMULARIO-->

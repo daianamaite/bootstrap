@@ -280,10 +280,11 @@ main{
         p{
             text-align: center;
             padding-bottom: 25px;
-            font-size: 18px;
+            font-size: 25px;
 
             @media screen and (max-width:450px){
                 padding-bottom: 5px;
+                font-size: 20px;
             }
         }
     }
@@ -294,6 +295,22 @@ main{
 
         span{
             font-size: 15px;
+        }
+    }
+}
+
+/**FORMULARIO**/
+.formularioP{
+    text-align: center;
+    padding: 15px;
+
+    .opcionFormulario{
+        height: 35px;
+        font-size: 20px;
+
+        @media screen and (max-width:450px){
+            height: 30px;
+            font-size: 17px;
         }
     }
 }
